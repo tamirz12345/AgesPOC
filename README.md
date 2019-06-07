@@ -11,6 +11,7 @@ Supported API requests in http (currently listen on <strong>localhost:5000 </str
 	1. Get http://adress:port/info?username={username}
 	   returns a string the age of the user {age} with the age from the db if the user exist.
 	2. Get http://adress:port/insert?username={username}&age={age}
+	   inserts to the mongo db a doucment of the username and age
 
 
 AgesMongo -> Class to acess the ages collection in current mongo server runs on my pc<br>
